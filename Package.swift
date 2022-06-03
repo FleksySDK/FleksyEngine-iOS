@@ -1,4 +1,3 @@
-
 // swift-tools-version:5.6
 
 import PackageDescription
@@ -16,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FleksyEngine",
-            url: "https://spm.fleksy.com/FleksyEngine/FleksyEngine-3.5.14.xcframework.zip",
-            checksum: "c205b57eee5b1e5dd3772c3cc79bd330ae9a4186cf24faf21eafb9db992cdc94"
+            url: "https://spm.fleksy.com/FleksyEngine/FleksyEngine-3.5.15.xcframework.zip",
+            checksum: "d837f8bb3d6aa63823c1cab3e1c4065983a05cef8a79984268e69d9f454455d4"
         )
     ]
 )
