@@ -1,4 +1,4 @@
-// swift-tools-version:5.6
+// swift-tools-version:5.7
 
 import PackageDescription
 
@@ -6,7 +6,8 @@ let package = Package(
     name: "FleksyEngine",
     platforms: [
         .iOS(.v10),
-        .watchOS(.v8)
+        .watchOS(.v8),
+        .macCatalyst(.v15)
     ],
     products: [
         .library(
@@ -16,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FleksyEngine",
-            url: "https://spm.fleksy.com/FleksyEngine/FleksyEngine-3.11.7.xcframework.zip",
-            checksum: "fcf3bfebec1d741f97827bb758ce3bc9fb6f7b8774a2ff36cdac0aac01cef066"
+            url: "https://spm.fleksy.com/FleksyEngine/FleksyEngine-3.12.1.xcframework.zip",
+            checksum: "3eb2b48d0b933e08dde010e408bfefa4a324b704857eec927dc94b1cd268b4fe"
         )
     ]
 )
