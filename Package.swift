@@ -5,9 +5,9 @@ import PackageDescription
 let package = Package(
     name: "FleksyEngine",
     platforms: [
-        .iOS(.v10),
+        .iOS(.v11),
         .watchOS(.v8),
-        .macCatalyst(.v15)
+        .macCatalyst(.v13)
     ],
     products: [
         .library(
@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FleksyEngine",
-            url: "https://spm.fleksy.com/FleksyEngine/FleksyEngine-3.12.1.xcframework.zip",
-            checksum: "3eb2b48d0b933e08dde010e408bfefa4a324b704857eec927dc94b1cd268b4fe"
+            url: "https://spm.fleksy.com/FleksyEngine/FleksyEngine-3.12.2.xcframework.zip",
+            checksum: "c0366472c8dc423eaae408c1894dd04f93c014bf32fe49fe93b2cda1218060a6"
         )
     ]
 )
