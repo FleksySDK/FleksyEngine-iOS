@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FleksyEngine",
-            url: "https://spm.fleksy.com/FleksyEngine/v3.21.1/FleksyEngine.xcframework.zip",
-            checksum: "40f9f0f08e45a1ccf1f2ffc1d11850128d41a4de44a7c00633da3a14a6edd0c4"
+            url: "https://spm.fleksy.com/FleksyEngine/v3.21.3/FleksyEngine.xcframework.zip",
+            checksum: "ab0cac89d1a7c66783010a85eed414baf34abf915e289cfc46d092138c749b46"
         )
     ]
 )
